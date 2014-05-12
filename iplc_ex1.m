@@ -1,3 +1,5 @@
+function iplc_ex1
+
 iplc_prob = iplc_solve();
 
 iplc_prob.usrfun = @(x) sncfun(x);
@@ -13,3 +15,5 @@ iplc_prob.options_struct.tol = 1e-6;
 iplc_prob
 
 iplc_solve(iplc_prob)
+
+end

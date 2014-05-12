@@ -1,5 +1,5 @@
 
-function drv3
+function iplc_ex2
   
   % data
   x0 = [2; 0];
@@ -37,6 +37,6 @@ function drv3
   x
   info
   
-  keyboard
+  %keyboard
   
 end
