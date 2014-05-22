@@ -8,9 +8,9 @@ if nargin == 1 && strcmp(install,'install')
   % TODO: make this better
   [~,~,~] = mkdir(mypath)
   % open file
-  fid = fopen([mypath '/iplc_load.m'],'w');
+  fid = fopen([mypath '/load_iplc.m'],'w');
   % write file
-  fprintf(fid,'function load_arcopt\n');
+  fprintf(fid,'function load_iplc\n');
   fprintf(fid,'  addpath(''%s'')\n',pwd);
   fprintf(fid,'  addpath(''%s'')\n',[pwd '/toolbox/ipopt']);
   fprintf(fid,'end\n');
